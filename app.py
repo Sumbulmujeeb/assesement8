@@ -7,8 +7,8 @@ app = Flask(__name__)
 # Initialize the MySQL database connection
 db = pymysql.connect(
     host="localhost",
-    user="your_username",
-    password="your_password",
+    user="root",
+    password="1234",
     database="order_management"
 )
 
